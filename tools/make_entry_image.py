@@ -169,11 +169,11 @@ def render() -> Image.Image:
     sub = font(REGULAR, 21)
     d.text((MARGIN, 148), "The day's news from every region, in a single image",
            font=sub, fill=MUTED)
-    d.rectangle([0, 158, W, 161], fill=RED)
+    d.rectangle([0, 176, W, 179], fill=RED)
 
     # Eight story cards, two across and four down, with the footer pinned to
     # a fixed budget so nothing runs off the bottom of the canvas.
-    top, rows, gap = 172, 4, 14
+    top, rows, gap = 190, 4, 14
     foot = 134                      # separator, "ALSO TODAY", two item rows
     card_h = (H - top - foot - (rows - 1) * gap) // rows
     card_w = (W - 2 * MARGIN - GUTTER) // 2

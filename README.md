@@ -25,7 +25,7 @@ and one line of detail —
 A footer lists four more of the day's stories (GTA VI, Brazil's budget vote,
 Ghana's cocoa warning, Ecuador's suit against the US) so the picture is not one
 region's or one beat's. Nothing is drawn from outside the repository: the file
-is a 1024x1024 PNG, 132,386 bytes, well inside the gate's 1 MiB and 1024px caps.
+is a 1024x1024 PNG, 133,883 bytes, well inside the gate's 1 MiB and 1024px caps.
 
 ## Run it
 
